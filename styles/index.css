@@ -174,65 +174,50 @@
     color: #fff;
     font-size: 0.88rem;
 }
-/* -----------------------------2.info */
+/* ======================================== 2.info */
 #wrap main #info_bg {
     background-color: #F5F5F5;
-    padding: 70px 0;
 }
 #wrap main #info_bg .info,
-#wrap main #traval {
-    width: 1220px;
-    margin: 0 auto;
-}
+#wrap main #traval {}
 #wrap main #info_bg .info h2,
-#wrap main #traval > h2 {
-    font-size: 1.50rem;
-    font-weight: 500;
+#wrap main #traval > h2 {}
+#wrap main #info_bg .info p {}
+#wrap main #info_bg .info p:last-child {}
+#wrap main #info_bg .info p:last-child img {
+    width: 100%;
 }
 #wrap main #info_bg .info p,
-#wrap main #traval p {
-    color: #555;
-    font-size: 0.94rem;
-    line-height: 170%;
-    margin: 30px 0 ;
-}
-#wrap main #traval {
-    padding: 70px 0;
-}
+#wrap main #traval p {}
+/* ==========================3.관광지 소개 */
+#wrap main #traval {}
 #wrap main #traval h2 {}
 #wrap main #traval p {}
 #wrap main #traval .traval_list {
     display: flex;
     flex-flow: row nowrap;
-    gap: 20px;
-    margin: 30px 0;
+    justify-content: space-between;
 }
 #wrap main #traval .traval_list li {
-    width: calc((100% - 60px ) / 4);
+    width: calc((100% - 60px) / 4);
 }
-#wrap main #traval .traval_list li a {}
-#wrap main #traval .traval_list li a img {}
-#wrap main #traval .traval_list li a .img {
-    width: 290px; height: 250px;
-    background-image: url(../img/traval1.jpg);
+#wrap main #traval .traval_list li a {
+    width: 100%; height: 250px;
+    overflow: hidden;
 }
-#wrap main #traval .traval_list li a .img:hover {
-    background-size: 110%;
-    background-position:right center;
+#wrap main #traval .traval_list li a img {
+    width: 100%;
 }
-#wrap main #traval .traval_list li a .img_box {overflow: hidden;}
-#wrap main #traval .traval_list li a .img_box > img:hover {
-    transform: scale(1.2);
-}
-#wrap main #traval .traval_list li a h2 {
-    font-size: 1.13rem;
-    font-weight: 500;
+#wrap main #traval .traval_list li a:hover img {width: 120%;}
+#wrap main #traval .traval_list li > h2 {
+    font-size:1.13rem;
     margin-top: 10px;
 }
-#wrap main #traval .traval_btn {
+#wrap main #traval .more {
+    display: block;
+    border-bottom: 1px solid #000;
+    margin: 0 auto;
+    width: max-content;
+    padding-bottom: 3px;
     font-size: 0.94rem;
-    text-decoration-line: underline;
-    width: 100%;
-    text-align: center;
-    margin-top: 50px;
 }
