@@ -227,24 +227,30 @@
     align-items: center;
 }
 #wrap main #room_bg .room_wrap .room_list li {}
-#wrap main #room_bg .room_wrap .room_list li > a {}
-#wrap main #room_bg .room_wrap .room_list li > a img {}
+#wrap main #room_bg .room_wrap .room_list li > a {
+    width: 220px; height: 250px;
+}
+#wrap main #room_bg .room_wrap .room_list li > a img {
+    width: 100%;
+}
 #wrap main #room_bg .room_wrap .room_list li a h3 {
     font-size:1.13rem;
     margin: 10px 0;
     font-weight: 600;
 }
-#wrap main #room_bg .room_wrap .room_list .first {}
-#wrap main #room_bg .room_wrap .room_list .first .room_thum {
-    
+#wrap main #room_bg .room_wrap .room_list .big {}
+#wrap main #room_bg .room_wrap .room_list .big .room_thum {
+    width: 500px; height: 350px;
 }
-#wrap main #room_bg .room_wrap .room_list .first .room_thum img {}
-#wrap main #room_bg .room_wrap .room_list .first > h3 {
+#wrap main #room_bg .room_wrap .room_list .big .room_thum img {
+    width: 100%;
+}
+#wrap main #room_bg .room_wrap .room_list .big > h3 {
     font-size:1.13rem;
     margin: 10px 0;
     font-weight: 600;
 }
-#wrap main #room_bg .room_wrap .room_list .first .room_info {
+#wrap main #room_bg .room_wrap .room_list .big .room_info {
     font-size: 0.88rem; line-height: 1.7;
     color: #555555;
 }
