@@ -58,17 +58,28 @@ header nav #gnb a:hover {color:#43CE48 !important;} /* 공통 a */
 #wrap footer {}
 #wrap footer p {}
 /* ============================================================= main w1220+p70 */
-#wrap main .container_layout {
+#wrap main .container_layout,
+.room_wrap, #map{
     width:1220px; margin:0 auto; padding:70px 0;
 }
-#wrap main .container_layout h2 {
+#wrap main .container_layout h2,
+#wrap main #room_bg .room_wrap > h2,
+.map_title h2{
     font-size: 1.50rem;
     font-weight: 600;
     margin: 0 0 30px;
 }
-#wrap main .container_layout h2+p {
+#wrap main .container_layout h2+p,
+#wrap main #room_bg .room_wrap > p{
     color: #555;
     font-size: 0.94rem;
     line-height: 170%;
     margin: 30px 0 ;
 }
+.more {
+    display: block;
+    border-bottom: 1px solid #000;
+    margin: 50px auto 0;
+    width: max-content;
+    padding-bottom: 3px;
+    font-size: 0.94rem; }

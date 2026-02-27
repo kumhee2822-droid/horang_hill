@@ -204,6 +204,7 @@
 #wrap main #traval .traval_list li a {
     width: 100%; height: 250px;
     overflow: hidden;
+    display: block;
 }
 #wrap main #traval .traval_list li a img {
     width: 100%;
@@ -213,11 +214,74 @@
     font-size:1.13rem;
     margin-top: 10px;
 }
-#wrap main #traval .more {
-    display: block;
-    border-bottom: 1px solid #000;
-    margin: 0 auto;
-    width: max-content;
-    padding-bottom: 3px;
+
+#wrap main #room_bg {
+    background-color: #F5F5F5;
+}
+#wrap main #room_bg .room_wrap {}
+#wrap main #room_bg .room_wrap > h2{}
+#wrap main #room_bg .room_wrap > p{}
+#wrap main #room_bg .room_wrap .room_list {
+    display: flex; flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+#wrap main #room_bg .room_wrap .room_list li {}
+#wrap main #room_bg .room_wrap .room_list li > a {}
+#wrap main #room_bg .room_wrap .room_list li > a img {}
+#wrap main #room_bg .room_wrap .room_list li a h3 {
+    font-size:1.13rem;
+    margin: 10px 0;
+    font-weight: 600;
+}
+#wrap main #room_bg .room_wrap .room_list .first {}
+#wrap main #room_bg .room_wrap .room_list .first .room_thum {
+    
+}
+#wrap main #room_bg .room_wrap .room_list .first .room_thum img {}
+#wrap main #room_bg .room_wrap .room_list .first > h3 {
+    font-size:1.13rem;
+    margin: 10px 0;
+    font-weight: 600;
+}
+#wrap main #room_bg .room_wrap .room_list .first .room_info {
+    font-size: 0.88rem; line-height: 1.7;
+    color: #555555;
+}
+#wrap main #room_bg .room_wrap .more {}
+#wrap main #map {}
+#wrap main #map .map_title {
+    display: flex; flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+#wrap main #map .map_title > h2 {}
+#wrap main #map .map_title > p {}
+#wrap main #map .map_img {}
+#wrap main #map .map_img img {}
+#wrap main #map .traffic {
+    margin-top: 30px;
+}
+#wrap main #map .traffic > h3 {
+    font-size: 1.50rem; font-weight: 600;
+    color: #555;
+}
+#wrap main #map .traffic > p {
     font-size: 0.94rem;
+    color: #555;
+    line-height: 1.8;
+    margin-top: 10px;
+}
+#wrap main #map .bus {}
+#wrap main #map .bus {}
+#wrap footer {
+    background-color: #000;
+}
+#wrap footer address {
+    width: 1220px;
+    margin: 0 auto;
+    padding: 70px 0;
+    color: #fff;
+    font-size: 0.88rem;
+    line-height: 2.0;
 }
